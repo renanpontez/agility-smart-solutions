@@ -12,18 +12,26 @@
   <link rel="stylesheet" href="styles/styles.css">
   <!-- Fontawesome script -->
   <script src="https://kit.fontawesome.com/653bc04403.js" crossorigin="anonymous"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Agility Smart Solutions</title>
 </head>
 
 <body>
   <header class="bg-primary">
-    <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container">
         <a class="navbar-brand" href="#">
-          <div class="brand d-inline-block">
-            <img class="pe-2" src="assets/images/svgs/rocket_white.svg" alt="" srcset="" width="50px">
-            <img class="ps-2" src="assets/images/svgs/logo_white.svg" alt="" srcset="" width="150px">
+          <div class="brand-purple">
+            <img class="pe-2" src="assets/images/svgs/rocket_purple.svg" alt="" srcset="" width="50px">
+            <img class=" ps-2" src="assets/images/svgs/logo_purple.svg" alt="" srcset="" width="150px">
+          </div>
+          <div class="brand-white d-none">
+            <img class="purple pe-2" src="assets/images/svgs/rocket_white.svg" alt="" srcset="" width="50px">
+            <img class="purple ps-2" src="assets/images/svgs/logo_white.svg" alt="" srcset="" width="150px">
           </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -31,46 +39,39 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse w-full justify-content-end collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 w-full justify-content-between">
+          <ul class="navbar-nav mb-2 mb-lg-0 w-full justify-content-between fw-bold">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
+      </div>
     </nav>
-  </div>
   </header>
   <div id="site_wrapper">
     <section id="home" class="container">
       <div class="row my-5 align-items-center">
-        <div class="col-5 pe-5">
+        <div class="col-12 col-md-5 pe-5">
           <img src="https://shreethemes.in/landrick/landing/images/illustrator/working_with_computer.svg" width="100%"
             alt="">
         </div>
-        <div class="col-7 ps-5">
-          <h1>We are Startup Creative <span class="c-primary"><strong>Agility Smart Solutions</strong></span>, your preferred solution.</h1>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reprehenderit fugiat nesciunt
-            corrupti tenetur!</p>
+        <div class="col-12 pt-5 pt-md-0 col-md-7 ps-5">
+          <h1>We are Startup Creative <span class="c-primary fw-bold"><strong>Agility Smart Solutions</strong></span>, your
+            preferred solution.</h1>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reprehenderit
+            fugiat nesciunt corrupti tenetur!</p>
           <a href="#services" class="btn btn-primary">Show more <i class="fas fa-chevron-right fa-xs ps-2"></i></a>
         </div>
       </div>
@@ -91,7 +92,8 @@
                         <h5>Web development</h5>
                       </div>
                       <div class="card_content text-center">
-                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus
+                          doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
                       </div>
                     </div>
                   </div>
@@ -106,7 +108,8 @@
                         <h5>Business Analyst</h5>
                       </div>
                       <div class="card_content">
-                        <p class="text-muted text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
+                        <p class="text-muted text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
                       </div>
                     </div>
                   </div>
@@ -125,7 +128,8 @@
                         <h5>Digital Marketing</h5>
                       </div>
                       <div class="card_content">
-                        <p class="text-muted text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
+                        <p class="text-muted text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
                       </div>
                     </div>
                   </div>
@@ -140,7 +144,8 @@
                         <h5>Brand Marketing</h5>
                       </div>
                       <div class="card_content">
-                        <p class="text-muted text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
+                        <p class="text-muted text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Illo, natus doloremque animi excepturi voluptatibus fuga qui deleniti.</p>
                       </div>
                     </div>
                   </div>
@@ -150,9 +155,10 @@
           </div>
         </div>
         <div class="col-12 col-lg-5 order-1 order-lg-2 pb-md-5">
-          <h3 class="c-primary">Services</h3>
+          <h3 class="c-primary fw-bold">Services</h3>
           <h4>Visit our projects with these services</h4>
-          <p class="text-muted">Start working with Agility that can provide everything you need to generate awareness, drive traffic, connect.</p>
+          <p class="text-muted">Start working with Agility that can provide everything you need to generate awareness,
+            drive traffic, connect.</p>
           <a href="#portfolio" class="btn btn-primary text-light">Show projects</a>
         </div>
       </div>
@@ -160,8 +166,10 @@
     <section id="more_info" class="container">
       <div class="row align-items-center">
         <div class="col-12 col-lg-5">
-          <h3 class="c-primary">Show more</h3>
-          <p class="text-muted">This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+          <h3 class="c-primary fw-bold">Show more</h3>
+          <p class="text-muted">This is required when, for example, the final text is not yet available. Dummy text is
+            also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when
+            writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
         </div>
         <div class="col-1"></div>
         <div class="col-12 col-lg-6">
@@ -169,22 +177,25 @@
         </div>
       </div>
     </section>
-    <section id="cta" class="position-relative" style="background: url(https://shreethemes.in/landrick/landing/images/1.jpg) center center;">
+    <section id="cta" class="position-relative"
+      style="background: url(https://shreethemes.in/landrick/landing/images/1.jpg) center center;">
       <div class="bg-overlay"></div>
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-7 division border-end">
-            <h3 class="c-primary">Give us your best email</h3>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum accusamus commodi, provident ipsa animi, illo nostrum suscipit nihil molestiae aliquid repellendus non a! Quidem sit soluta ab, labore perferendis doloremque!</p>
+          <div class="col-12 col-lg-7">
+            <h3 class="c-primary fw-bold">Give us your best email</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum accusamus commodi,
+              provident ipsa animi, illo nostrum suscipit nihil molestiae aliquid repellendus non a! Quidem sit soluta
+              ab, labore perferendis doloremque!</p>
           </div>
-          <div class="col-5">
+          <div class="col-12 col-lg-5 ">
             <form action="">
               <div class="row align-items-center">
                 <div class="col-10">
                   <div class="form-input py-2">
                     <div class="position-relative">
                       <i class="fas fa-at input_icon position-absolute border-end pe-2"></i>
-                      <input class="ps-5 form-control" id="cta" name="cta" type="text" placeholder="Email">
+                      <input class="ps-5 form-control" id="cta_input" name="cta_input" type="text" placeholder="Email">
                     </div>
                   </div>
                 </div>
@@ -198,64 +209,239 @@
       </div>
     </section>
     <section id="portfolio" class="container">
-      <h3 class="c-primary">Portfolio</h3>
+      <h3 class="c-primary fw-bold">Portfolio</h3>
       <p class="text-muted">These is some of our projects</p>
       <div class="row text-center">
         <div class="col-12 col-md-6 col-lg-4 pb-3">
-          <div class="card-wrapper">
+          <div class="portfolio_card position-relative" 
+            data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            data-projectUrl="https://agilitycreative.com/" 
+            data-company="Agility Smart Solutions"
+            data-client="Renan"
+            data-techs="HTML, CSS, Javascript e Bootstrap"
+            data-date="09/02/2022">
+            <a href="#" class="mask-portfolio d-flex flex-column justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="read_more_item d-flex align-items-center justify-content-center text-light">
+                  <i class="fas fa-plus fs-3"></i>
+                </div>
+              </div>
+              <div class="job_description text-start p-3">
+                <h5 style="color: #f7f7f7">Agility Smart Solutions</h5>
+                <div class="job_tags d-flex">
+                  <p class="text-muted">Brand Marketing</p>
+                  <p class="text-muted">Web development</p>
+                </div>
+              </div>
+            </a>
             <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="" width="100%">
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 pb-3">
-          <div class="card-wrapper">
+          <div class="portfolio_card position-relative"
+            data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            data-projectUrl="https://carrefour.com/" 
+            data-company="Carrefour Wallet"
+            data-client="Jurivaldo"
+            data-techs="React.js, Node.js, Tailwind CSS"
+            data-date="09/02/2022">
+            <a href="#" class="mask-portfolio d-flex flex-column justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="read_more_item d-flex align-items-center justify-content-center text-light">
+                  <i class="fas fa-plus fs-3"></i>
+                </div>
+              </div>
+              <div class="job_description text-start p-3">
+                <h5 style="color: #f7f7f7">Carrefour Wallet</h5>
+                <div class="job_tags d-flex">
+                  <p class="text-muted">Web development</p>
+                  <p class="text-muted">Digital Marketing</p>
+                  <p class="text-muted">Business Analyst</p>
+                </div>
+              </div>
+            </a>
             <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="" width="100%">
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 pb-3">
-          <div class="card-wrapper">
+          <div class="portfolio_card position-relative"
+            data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            data-projectUrl="https://dravanessaremato.com/" 
+            data-company="Dr Vanessa Remato"
+            data-client="Vanessa"
+            data-techs="HTML, CSS, Javascript e Bootstrap"
+            data-date="09/02/2022">
+            <a href="#" class="mask-portfolio d-flex flex-column justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="read_more_item d-flex align-items-center justify-content-center text-light">
+                  <i class="fas fa-plus fs-3"></i>
+                </div>
+              </div>
+              <div class="job_description text-start p-3">
+                <h5 style="color: #f7f7f7">Agility Smart Solutions</h5>
+                <div class="job_tags d-flex">
+                  <p class="text-muted">Brand Marketing</p>
+                  <p class="text-muted">Web development</p>
+                </div>
+              </div>
+            </a>
             <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="" width="100%">
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 pb-3">
-          <div class="card-wrapper">
+          <div class="portfolio_card position-relative"
+            data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            data-projectUrl="https://agilitycreative.com/" 
+            data-company="Agility Smart Solutions"
+            data-client="Renan"
+            data-techs="HTML, CSS, Javascript e Bootstrap"
+            data-date="09/02/2022">
+            <a href="#" class="mask-portfolio d-flex flex-column justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="read_more_item d-flex align-items-center justify-content-center text-light">
+                  <i class="fas fa-plus fs-3"></i>
+                </div>
+              </div>
+              <div class="job_description text-start p-3">
+                <h5 style="color: #f7f7f7">Agility Smart Solutions</h5>
+                <div class="job_tags d-flex">
+                  <p class="text-muted">Brand Marketing</p>
+                  <p class="text-muted">Web development</p>
+                </div>
+              </div>
+            </a>
             <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="" width="100%">
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 pb-3">
-          <div class="card-wrapper">
+          <div class="portfolio_card position-relative"
+            data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            data-projectUrl="https://agilitycreative.com/" 
+            data-company="Agility Smart Solutions"
+            data-client="Renan"
+            data-techs="HTML, CSS, Javascript e Bootstrap"
+            data-date="09/02/2022">
+            <a href="#" class="mask-portfolio d-flex flex-column justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="read_more_item d-flex align-items-center justify-content-center text-light">
+                  <i class="fas fa-plus fs-3"></i>
+                </div>
+              </div>
+              <div class="job_description text-start p-3">
+                <h5 style="color: #f7f7f7">Agility Smart Solutions</h5>
+                <div class="job_tags d-flex">
+                  <p class="text-muted">Brand Marketing</p>
+                  <p class="text-muted">Web development</p>
+                </div>
+              </div>
+            </a>
             <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="" width="100%">
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 pb-3">
-          <div class="card-wrapper">
+          <div class="portfolio_card position-relative"
+            data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            data-projectUrl="https://agilitycreative.com/" 
+            data-company="Agility Smart Solutions"
+            data-client="Renan"
+            data-techs="HTML, CSS, Javascript e Bootstrap"
+            data-date="09/02/2022">
+            <a href="#" class="mask-portfolio d-flex flex-column justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="read_more_item d-flex align-items-center justify-content-center text-light">
+                  <i class="fas fa-plus fs-3"></i>
+                </div>
+              </div>
+              <div class="job_description text-start p-3">
+                <h5 style="color: #f7f7f7">Agility Smart Solutions</h5>
+                <div class="job_tags d-flex">
+                  <p class="text-muted">Brand Marketing</p>
+                  <p class="text-muted">Web development</p>
+                </div>
+              </div>
+            </a>
             <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="" width="100%">
           </div>
         </div>
       </div>
     </section>
-    <section id="testimonios" class="position-relative">
+    <section id="testimonials" class="position-relative">
       <div class="bg-overlay"></div>
       <div class="container">
         <div class="row">
-          <h3 class="c-primary">Testimonials</h3>
+          <h3 class="c-primary fw-bold">Testimonials</h3>
           <p class="text-muted">What our clients say about us</p>
           <div class="col-12 text-center">
             <div class="testimonials-wrapper">
-              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 100%">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner py-3">
                   <div class="carousel-item active">
-                    <p class="text-dark">TESTE</p>
+                    <div class="testimonial_wrapper">
+                      <div class="user_profile pb-2">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                        <p class="my-0 pt-2">Pedro Lima - Software Engineer</p>
+                      </div>
+                      <div class="user_class text-warning pb-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p class="user_depoiment pb-4">
+                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ipsum nesciunt, distinctio
+                        maiores rem dolore non sed harum. Explicabo quo deleniti et quae eligendi esse. Inventore
+                        reprehenderit quidem excepturi cupiditate."
+                      </p>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <p>TESTE</p>
+                    <div class="testimonial_wrapper">
+                      <div class="user_profile pb-2">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                        <p class="my-0 pt-2">Pedro Lima - Software Engineer</p>
+                      </div>
+                      <div class="user_class text-warning pb-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p class="user_depoiment pb-4">
+                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ipsum nesciunt, distinctio
+                        maiores rem dolore non sed harum. Explicabo quo deleniti et quae eligendi esse. Inventore
+                        reprehenderit quidem excepturi cupiditate."
+                      </p>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <p>TESTE</p>
+                    <div class="testimonial_wrapper">
+                      <div class="user_profile pb-2">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                        <p class="my-0 pt-2">Pedro Lima - Software Engineer</p>
+                      </div>
+                      <div class="user_class text-warning pb-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p class="user_depoiment pb-4">
+                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ipsum nesciunt, distinctio
+                        maiores rem dolore non sed harum. Explicabo quo deleniti et quae eligendi esse. Inventore
+                        reprehenderit quidem excepturi cupiditate."
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -264,71 +450,183 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="container">
-        <div class="row align-items-center">
-          <h3 class="c-primary">Contact</h3>
-          <p class="text-muted">Have any questions? Send a email for us</p>
-          <div class="col-8">
-            <p class="text-muted">If you have any questions, send us an email, we will answer as soon as possible to solve your contact.</p>
-          </div>
-          <div class="col-4">
-            <div class="form_wrapper p-2" style="background: #f7f7f7; border-radius: 8px; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0);">
-              <h3 class="text-center c-primary pt-2">Send your message</h3>
-              <form class="px-3" method="post">
-                <div class="form-input py-2">
-                  <label class="d-block" for="name">Name</label>
-                  <div class="position-relative">
-                    <i class="fas fa-user input_icon position-absolute border-end pe-2"></i>
-                    <input class="ps-5 form-control"  id="name" name="name" type="text" placeholder="Name">
-                  </div>
-                </div>
-                <div class="form-input py-2">
-                  <label class="d-block" for="name">Name</label>
-                  <div class="position-relative">
-                    <i class="fas fa-at input_icon position-absolute border-end pe-2"></i>
-                    <input class="ps-5 form-control"  id="name" name="name" type="text" placeholder="Name">
-                  </div>
-                </div>
-                <div class="form-input py-2">
-                  <label class="d-block" for="name">Name</label>
-                  <div class="position-relative">
-                    <i class="fas fa-envelope-open-text input_icon position-absolute border-end pe-2"></i>
-                    <input class="ps-5 form-control"  id="name" name="name" type="text" placeholder="Name">
-                  </div>
-                </div>
-                <input type="submit" class="btn btn-primary text-light px-3 my-3" value="Send message">
-                </div>
-              </form>
+    <section class="container" id="FAQ">
+      <h3 class="c-primary fw-bold pb-3">Frequently Asked Questions</h3>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
           </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <footer class="bg-primary">
-      <div class="footer_wrapper container">
-        <div class="row justify-content-between">
-          <div class="col-md-4 col-12">
-            <a class="d-block text-light" href="http://">LOGO</a>
-            <a class="text-light" href="http://">a</a>
-            <a class="text-light" href="http://">b</a>
-            <a class="text-light" href="http://">c</a>
-            <a class="text-light" href="http://">d</a>
-            <p>lorem ipsum</p>
+    <section id="contact" class="container">
+      <div class="row align-items-center">
+        <h3 class="c-primary fw-bold">Contact</h3>
+        <p class="text-muted">Have any questions? Send a email for us</p>
+        <div class="col-12 col-md-6 col-lg-8">
+          <p class="text-muted">If you have any questions, send us an email, we will answer as soon as possible to solve
+            your contact.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="form_wrapper p-2"
+            style="background: #f7f7f7; border-radius: 8px; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0);">
+            <h3 class="text-center c-primary pt-2 fw-bold">Send your message</h3>
+            <form class="px-3" method="post">
+              <div class="form-input py-2">
+                <label class="d-block" for="name">Name</label>
+                <div class="position-relative">
+                  <i class="fas fa-user input_icon position-absolute border-end pe-2"></i>
+                  <input class="ps-5 form-control" id="name" name="name" type="text" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-input py-2">
+                <label class="d-block" for="email">Email</label>
+                <div class="position-relative">
+                  <i class="fas fa-at input_icon position-absolute border-end pe-2"></i>
+                  <input class="ps-5 form-control" id="email" name="email" type="text" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-input py-2">
+                <label class="d-block" for="name">Message</label>
+                <div class="position-relative">
+                  <i class="fas fa-envelope-open-text input_icon position-absolute border-end pe-2"></i>
+                  <textarea class="ps-5 form-control" id="exampleFormControlTextarea1" rows="4"
+                    placeholder="Your message here" style="resize: none;"></textarea>
+                </div>
+              </div>
+              <input type="submit" class="btn btn-primary text-light px-3 my-3" value="Send message">
           </div>
-          <div class="col-md-4 col-12">
-            <a class="text-light" href="http://">PERSONALIZADO</a>
-            <a class="text-light" href="http://">E</a>
-            <a class="text-light" href="http://">HOME</a>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5 bg-primary text-light">
+      <div class="container">
+        <div class="row">
+          <!--           <div class="col-12 col-md-3">
+            <h5>Fast menu</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Services</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Portfolio</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Testimonials</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact</a></li>
+            </ul>
           </div>
-          <div class="col-md-4 col-12">
-            <a class="text-light" href="http://">PERSONALIZADO</a>
-            <a class="text-light" href="http://">H</a>
-            <a class="text-light" href="http://">HOME</a>
+          <div class="col-12 col-md-3">
+            <h5>Services</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Web development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Brand Marketing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Business Analyst</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Digital Marketing</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>Contact us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">agility@bol.com.br</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">(11) 964451184</a></li>
+            </ul>
+          </div> -->
+          <div class="text-center col-12 py-md-0 pt-3">
+            <div class="brand-white">
+              <img class="purple pe-2" src="assets/images/svgs/rocket_white.svg" alt="" width="50px">
+              <img class="purple ps-2" src="assets/images/svgs/logo_white.svg" alt="" width="150px">
+            </div>
+          </div>
+        </div>
+        <div class="justify-content-between py-4 my-4 border-top">
+          <div class="row">
+            <div class="col-12 col-md-8 order-2 order-md-1 text-center text-center text-md-start">
+              <p>&copy; 2022 Agility Smart Solutions | All Rights Reserved | Agility</p>
+            </div>
+            <div class="col-12 col-md-4 order-1 order-md-2">
+              <ul class="list-unstyled d-flex justify-content-md-end justify-content-center">
+                <li class="mx-2"><a class="text-light" href="http://"><i class="fab fa-instagram fa-lg"></i></a></li>
+                <li class="mx-2"><a class="text-light" href="http://"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+                <li class="mx-2"><a class="text-light" href="http://"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                <li class="ms-2"><a class="text-light" href="http://"><i class="fab fa-twitter fa-lg"></i></a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </footer>
   </div>
 
+
+  <!-- MODAL -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl p-2 mx-auto">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5 class="modal-title text-center pb-3" id="#modalTitle"></h5>
+          <div class="row">
+            <div class="col-12 col-lg-7">
+              <div class="image-project">
+                <img src="https://shreethemes.in/landrick/landing/images/personal/4.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 pt-4 pt-lg-0">
+              <div class="description-project">
+                <div class="project-info">
+                  <h5>Project Info:</h5>
+                  <p class="project-description"></p>
+                </div>
+                <div class="project-details">
+                  <h5>Project Details:</h5>
+                  <ul class="list-unstyled details">
+                    <li><strong>Client:</strong><span class="client-details text-muted px-2"></span></li>
+                    <li><strong>Technologies:</strong><span class="techs-details text-muted px-2"></span></li>
+                    <li><strong>Date:</strong><span class="date-details text-muted px-2"></span></li>
+                    <li><strong>URL: </strong><span class="url-details text-muted px-2"></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Custom JavaScript -->
+  <script src="./scripts/script.js"></script>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

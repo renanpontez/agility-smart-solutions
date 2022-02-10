@@ -1,10 +1,18 @@
 /* utilities */
 :root {
   --primary-color: #A95FE3;
+  --white-wrapper: #f7f7f7;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
 .c-primary {
   color: var(--primary-color);
+}
+
+.bg-wrapper {
+  background: var(--white-wrapper) !important;
 }
 
 .bg-primary {
@@ -13,6 +21,10 @@
 
 section, footer {
   padding: 80px 0;
+}
+
+#cta {
+  padding: 150px 0;
 }
 
 
@@ -44,6 +56,26 @@ input {
   box-shadow: none;
   border: 1px solid var(--primary-color);
 }
+
+
+/* NAVBAR */
+nav.navbar-light .nav-item .nav-link {
+  transition: all .3s;
+  color: var(--primary-color) !important;
+}
+
+nav.scrolled .nav-item .nav-link {
+  transition: all .3s;
+  color: #fff !important;
+}
+
+nav.scrolled {
+  color: var(--primary-color) !important;
+  background: var(--primary-color) !important;
+  transition: all .3s;
+}
+
+
 
 /* SERVICES SECTION */
 /* CARDS */
@@ -88,13 +120,83 @@ input {
 
 
 
+/* PORTFOLIO SECTION */
+/* CARDS */
+
+.portfolio_card > img,
+.portfolio_card .mask-portfolio,
+.portfolio_card{
+  border-radius: 8px !important;
+}
+
+.portfolio_card {
+  height: 100%;
+  overflow: hidden; 
+}
+
+.portfolio_card .mask-portfolio{
+  position: absolute;
+  top: 0; left:0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+.portfolio_card:hover .mask-portfolio {
+  visibility: visible;
+  opacity: 1;
+  transition: all .5s;
+}
+
+.portfolio_card:hover img {
+  transform: scale(1.2);
+  transition: all .5s
+}
+.portfolio_card img {
+  transition: all .5s
+}
+
+.read_more_item {
+  border-radius: 50%;
+  width: 60px; height: 60px;
+}
+
+.job_tags p{
+  margin: 0 10px 0 0;
+  background: #f7f7f7;
+  font-size: 8px;
+  border-radius: 5px;
+  border: solid #f7f7f7 1px;
+  padding: 0 10px
+}
 
 
 
 
+.modal {
+  max-height: 100vh;
+}
 
 
+.image-project {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
 
+.image-project img {
+  width: 100%;
+}
+
+.details li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eaeaea;
+}
 
 
 
@@ -153,11 +255,6 @@ input {
 
 .row>*{
   position: relative;
-}
-
-
-.card-wrapper > img{
-  border-radius: 8px !important;
 }
 
 .carousel-indicators [data-bs-target] {
