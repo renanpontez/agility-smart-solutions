@@ -175,9 +175,21 @@ nav.scrolled {
   padding: 0 10px
 }
 
+/* FAQ */
 
 
+.accordion-button:not(.collapsed) {
+  background-color: #a95fe36e;
+  box-shadow: none;
+  color: #fff;
+}
 
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+
+/* MODAL */
 .modal {
   max-height: 100vh;
 }
