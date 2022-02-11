@@ -1,0 +1,16 @@
+Aparecer roxo na nav mais rapido - Font thin - 12px;
+
+
+Diminuir paddings;
+
+
+
+trocar paddings por margins nas sections
+E desvicular container das sections
+
+
+Remover borda do modal;
+
+Modal - Imagem;
+
+Footer dark

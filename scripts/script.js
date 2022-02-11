@@ -5,7 +5,7 @@ const white = document.querySelector('.brand-white');
 
 window.onscroll = () => {
   // pageYOffset or scrollY
-  if (window.pageYOffset > 200) {
+  if (window.pageYOffset > 80) {
     purple.classList.add('d-none');
     white.classList.remove('d-none');
     nav.classList.add('scrolled')
@@ -37,19 +37,11 @@ var modalTitle = document.getElementById('modalTitle');
 const portfolioCard = document.querySelectorAll('.portfolio_card');
 
 portfolioCard.forEach(card => card.addEventListener('click', () => {
-  const modalTitle = document.querySelector('.modal-title');
-  const projectDescription = document.querySelector('.project-description');
-  const projectClient = document.querySelector('.client-details');
-  const projectTechs = document.querySelector('.techs-details');
-  const projectDate = document.querySelector('.date-details');
-  const projectURL = document.querySelector('.url-details');
+  const cardTitle = document.querySelector('.title-project');
+  const projectLink = document.querySelector('.project-link');
+  projectLink.setAttribute('href', card.dataset.url);
+  projectLink.setAttribute('target', '_blank');
+  cardTitle.innerText = card.dataset.title
 
-  console.log(card.dataset)
-  modalTitle.innerText = card.dataset.company;
-  projectDescription.innerText = card.dataset.description;
-  projectClient.innerText = card.dataset.client;
-  projectTechs.innerText = card.dataset.techs;
-  projectDate.innerText = card.dataset.date;
-  projectURL.innerText = card.dataset.projecturl;
 }));
 
