@@ -226,6 +226,10 @@ nav.scrolled {
   z-index: 999;
 }
 
+.btn-close:focus {
+  box-shadow: none;
+}
+
 .project-link, .project-link:hover {
   border: solid 1px var(--primary-color);
   color: var(--primary-color);
