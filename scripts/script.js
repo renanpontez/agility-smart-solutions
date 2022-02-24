@@ -1,17 +1,11 @@
 /* Navbar toggle background */
 const nav = document.querySelector('nav');
-const purple = document.querySelector('.brand-purple');
-const white = document.querySelector('.brand-white');
 
 window.onscroll = () => {
   // pageYOffset or scrollY
   if (window.pageYOffset > 80) {
-    purple.classList.add('d-none');
-    white.classList.remove('d-none');
     nav.classList.add('scrolled')
   } else {
-    purple.classList.remove('d-none');
-    white.classList.add('d-none');
     nav.classList.remove('scrolled')
   }
 }

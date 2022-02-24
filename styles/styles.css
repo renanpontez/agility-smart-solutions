@@ -8,6 +8,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 .container {
   max-width: 1100px;
 }
@@ -80,7 +84,7 @@ input:focus, textarea:focus, input:active, textarea:active {
 /* NAVBAR */
 nav.navbar-light .nav-item .nav-link {
   transition: all .3s;
-  color: var(--primary-color) !important;
+  color: #fff !important;
   font-weight: thin !important;
   text-transform: uppercase !important;
   font-size: 13px;
@@ -254,50 +258,9 @@ nav.scrolled {
   border-bottom: 1px solid #eaeaea;
 }
 
-
-
 footer {
   background-color: #353535
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .bg-overlay {
   background-color: rgb(239, 240, 242, 0.7);
@@ -327,4 +290,9 @@ footer {
 .carousel-indicators > button.active {
   transform: rotate(45deg);
   transition: all .5s;
+}
+
+.bg-gradient-primary {
+  background: rgb(169,95,227);
+  background: linear-gradient(130deg, rgba(169,95,227,1) 0%, rgba(95, 21, 192, 1) 100%);
 }
